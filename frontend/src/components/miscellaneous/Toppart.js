@@ -15,7 +15,6 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuDivider,
 } from "@chakra-ui/react";
 import {
   Drawer,

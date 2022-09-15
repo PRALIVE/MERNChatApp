@@ -1,12 +1,11 @@
 import { AddIcon } from "@chakra-ui/icons";
-import { Avatar, Box, Button, Stack, Text, useToast } from "@chakra-ui/react";
+import { Avatar, Box, Button,Text, useToast } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { ChatState } from "../Context/GlobalHooks";
 import ChatLoading from "../Avatar/ChatLoading";
 import GroupChatModal from "../Avatar/GroupChatModal";
 import { getSender } from "../../config/ChatLogic";
-import "./styles.css";
 function Leftpart({ fetchAgain }) {
   const [loggedUser, setLoggedUser] = useState();
   const { user, chats, setChats, selectedChat, setSelectedChat } = ChatState();

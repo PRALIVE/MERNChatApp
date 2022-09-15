@@ -1,5 +1,4 @@
 import { ArrowBackIcon, ViewIcon } from "@chakra-ui/icons";
-import "./styles.css";
 import {
   Box,
   Button,
@@ -20,7 +19,6 @@ import { ChatState } from "../Context/GlobalHooks";
 import io from "socket.io-client";
 import { getSender, getSenderFull } from "../../config/ChatLogic";
 import ScrollableFeed from "react-scrollable-feed";
-import "./chatapplogo.png";
 
 const ENDPOINT = "https://chattingapp2222.herokuapp.com/";  //"http://localhost:5000";
 var socket, selectedChatCompare;

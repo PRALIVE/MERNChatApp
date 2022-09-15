@@ -1,6 +1,5 @@
 import { isSameSenderMargin, isSameUser } from "../../config/ChatLogic";
 import { ChatState } from "../Context/GlobalHooks";
-import "../miscellaneous/styles.css";
 import ScrollableFeed from "react-scrollable-feed";
 function SingleChats({messages}){
 

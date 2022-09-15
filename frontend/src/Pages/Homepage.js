@@ -1,9 +1,8 @@
-import { Container, Img } from "@chakra-ui/react";
+import { Container} from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import Login from "../components/authorization/login";
 import Signup from "../components/authorization/Signup";
-import logo from "./logo.png";
 import "../App.css";
 
 function Homepage() {
